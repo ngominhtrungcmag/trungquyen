@@ -148,6 +148,7 @@ a:hover{
         width: 100%;
         height: 100vh;
         backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
         top: 80px;
         font-weight: bold;
         left: -100%;
@@ -269,7 +270,7 @@ a:hover{
 #story{
     padding-top: 10vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 10vh 0;
 }
 #story h3{
@@ -388,7 +389,7 @@ a:hover{
 .hands{
     height: 120vh;
     width: 100%;
-    background-image: url(images/ZEN_9975.jpg);
+    background-image: url(images/ZEN_9805.jpg);
     background-size: cover;
     background-position-y: center;
     background-position-x: center;
@@ -445,7 +446,7 @@ a:hover{
     display: block;
     height: 100vh;
     width: 40vw;
-    background-image: url(images/AnhBan3.jpg);
+    background-image: url(images/ZEN_9952.jpg);
     background-size: cover;
     background-position-y: top;
     background-repeat: no-repeat;
@@ -509,7 +510,24 @@ footer h2{
     font-weight: normal;
 }
 
-
+.invitation {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+    max-width: 600px;
+}
+.invitation p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+.separator {
+    margin: 20px 0;
+    font-size: 24px;
+}
+.hearts {
+    font-size: 24px;
+    color: #ff69b4; /* Màu hồng */
+}
 
 #timer {  
     font-size: 3em;
